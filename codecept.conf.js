@@ -1,7 +1,6 @@
 require('ts-node/register')
 
 exports.config = {
-  tests: './project/tests/*_test.ts',
   output: './project/output',
   helpers: {
     Playwright: {
@@ -12,21 +11,32 @@ exports.config = {
   },
   include: {
     I: './project/steps/steps_file.js',
-    factorialPage: "./project/page_objects/factorial_page.js"
+    factorialPage: './project/page_objects/factorial_page.js'
+  },
+  mocha: {
+    reporterOptions: {
+        reportDir: "./project/output"
+    }
   },
   bootstrap: null,
-  mocha: {},
-  name: 'UrbantzTestProject',
+  teardown: null,
+  hooks: [],
+  gherkin: {
+    features: './project/features/*.feature',
+    steps: './project/features/step_definitions/*_steps.js'
+  },
   plugins: {
+    screenshotOnFail: {
+      enabled: true
+    },
     pauseOnFail: {},
     retryFailedStep: {
       enabled: true
     },
     tryTo: {
       enabled: true
-    },
-    screenshotOnFail: {
-      enabled: true
     }
-  }
+  },
+  tests: './project/tests/*_test.ts',
+  name: 'UrbantzTestProject'
 }

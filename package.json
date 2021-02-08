@@ -9,16 +9,19 @@
         "codeceptjs:demo": "codeceptjs run --steps -c node_modules/@codeceptjs/examples",
         "codeceptjs:demo:headless": "HEADLESS=true codeceptjs run --steps -c node_modules/@codeceptjs/examples",
         "codeceptjs:demo:ui": "codecept-ui --app  -c node_modules/@codeceptjs/examples",
-        "codeceptjs:run:tests": "codeceptjs run --tests"
+        "codeceptjs:run:tests": "codeceptjs run --tests --reporter mochawesome",
+        "codeceptjs:run:features": "codeceptjs run --features --reporter mochawesome"
     },
     "devDependencies": {
         "@codeceptjs/configure": "^0.6.2",
         "@codeceptjs/examples": "^1.2.1",
         "@codeceptjs/ui": "^0.4.3",
         "codeceptjs": "^3.0.5",
+        "mocha": "^8.2.1",
         "playwright": "^1.8.0"
     },
     "dependencies": {
+        "mochawesome": "^6.2.1",
         "ts-node": "^9.1.1",
         "typescript": "^4.1.3"
     }
