@@ -1,0 +1,5 @@
+[
+    {"number": "-1", "result": "Please enter a positive integer"},
+    {"number": "9007199254740991", "result": "Overflow (Integer too big)"},
+    {"number": "-9007199254740991", "result": "Please enter a positive integer"}
+]

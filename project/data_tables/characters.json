@@ -1,0 +1,11 @@
+[
+    {"character": "A", "result": "Please enter an integer"},
+    {"character": "b", "result": "Please enter an integer"},
+    {"character": "\"D\"", "result": "Please enter an integer"},
+    {"character": "'1'", "result": "Please enter an integer"},
+    {"character": "\"1\"", "result": "Please enter an integer"},
+    {"character": "1a", "result": "Please enter an integer"},
+    {"character": "a1", "result": "Please enter an integer"},
+    {"character": "1a1", "result": "Please enter an integer"},
+    {"character": " ", "result": "Please enter an integer"}
+]

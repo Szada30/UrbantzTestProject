@@ -1,0 +1,8 @@
+[
+    {"number": "34 45 66", "result": "Please enter an integer"},
+    {"number": " 60", "result": "8.32098711274139e+81"},
+    {"number": "40 years", "result": "Please enter an integer"},
+    {"number": "He was 40", "result": "Please enter an integer"},
+    {"number": "010", "result": "3628800"},
+    {"number": "0x10", "result": "Please enter an integer"}
+]

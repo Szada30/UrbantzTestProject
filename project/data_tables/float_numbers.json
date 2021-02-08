@@ -1,0 +1,6 @@
+[
+    {"number": "1.1", "result": "Please enter an integer"},
+    {"number": "1.0", "result": "Please enter an integer"},
+    {"number": "0.0", "result": "Please enter an integer"},
+    {"number": "1.5555", "result": "Please enter an integer"}
+]
