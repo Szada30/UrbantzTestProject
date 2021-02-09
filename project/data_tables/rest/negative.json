@@ -1,0 +1,19 @@
+[
+    {"number": 1.1},
+    {"number": 1.5555},
+    {"number": -1},
+    {"number": "1.0"},
+    {"number": "0.0"},
+    {"number": "A"},
+    {"number": "b"},
+    {"number": " "},
+    {"number": "\"1\""},
+    {"number": "'1'"},
+    {"number": "1a"},
+    {"number": "a1"},
+    {"number": "1a1"},
+    {"number": "0x10"},
+    {"number": "34 45 66"},
+    {"number": "40 years"},
+    {"number": "He was 40"}
+]

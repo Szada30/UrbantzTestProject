@@ -4,9 +4,16 @@ exports.config = {
   output: './project/output',
   helpers: {
     Playwright: {
-      url: 'http://qainterview.pythonanywhere.com/',
+      url: 'http://qainterview.pythonanywhere.com',
       show: true,
       browser: 'chromium'
+    },
+    REST: {
+      endpoint: "http://qainterview.pythonanywhere.com",
+      defaultHeaders: {
+        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        'Accept': ' */*',
+      },
     }
   },
   include: {

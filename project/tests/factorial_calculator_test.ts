@@ -36,35 +36,35 @@ const { I, factorialPage } = inject();
 //     I.see('QA for startups');
 // });
 
-let naturalNumbers = readJsonToDataTable(['number', 'result'], 'project/data_tables/natural_numbers.json');
-Data(naturalNumbers).Scenario('Calculate natural factorials', ({ I, factorialPage, current }) => {
-    I.amOnPage('/');
-    factorialPage.calculateFactorial(current.number);
-    I.see(current.result, factorialPage.fields.result);
-});
+// let naturalNumbers = readJsonToDataTable(['number', 'result'], 'project/data_tables/ui/natural_numbers.json');
+// Data(naturalNumbers).Scenario('Calculate natural factorials', ({ I, factorialPage, current }) => {
+//     I.amOnPage('/');
+//     factorialPage.calculateFactorial(current.number);
+//     I.see(current.result, factorialPage.fields.result);
+// });
 
-// let integerNumbers = readJsonToDataTable(['number', 'result'], 'project/data_tables/integer_numbers.json');
+// let integerNumbers = readJsonToDataTable(['number', 'result'], 'project/data_tables/ui/integer_numbers.json');
 // Data(integerNumbers).Scenario('Calculate integer factorials', ({ I, factorialPage, current }) => {
 //     I.amOnPage('/');
 //     factorialPage.calculateFactorial(current.number);
 //     I.see(current.result, factorialPage.fields.result);
 // });
 
-// let floatNumbers = readJsonToDataTable(['number', 'result'], 'project/data_tables/float_numbers.json');
+// let floatNumbers = readJsonToDataTable(['number', 'result'], 'project/data_tables/ui/float_numbers.json');
 // Data(floatNumbers).Scenario('Calculate floating-point factorials', ({ I, factorialPage, current }) => {
 //     I.amOnPage('/');
 //     factorialPage.calculateFactorial(current.number);
 //     I.see(current.result, factorialPage.fields.result);
 // });
 
-// let characters = readJsonToDataTable(['character', 'result'], 'project/data_tables/characters.json');
+// let characters = readJsonToDataTable(['character', 'result'], 'project/data_tables/ui/characters.json');
 // Data(characters).Scenario('Calculate character factorials', ({ I, factorialPage, current }) => {
 //     I.amOnPage('/');
 //     factorialPage.calculateFactorial(current.character);
 //     I.see(current.result, factorialPage.fields.result);
 // });
 
-// let parseIntNumbers = readJsonToDataTable(['number', 'result'], 'project/data_tables/parse_int_numbers.json');
+// let parseIntNumbers = readJsonToDataTable(['number', 'result'], 'project/data_tables/ui/parse_int_numbers.json');
 // Data(parseIntNumbers).Scenario('"parseInt" handling', ({ I, factorialPage, current }) => {
 //     I.amOnPage('/');
 //     factorialPage.calculateFactorial(current.number);
