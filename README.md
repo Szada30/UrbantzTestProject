@@ -10,7 +10,7 @@ npm install
 
 * A Feature file for testing the main Business Logic
 * A test file for testing the UI
-* A test file to testing the API Business Logic
+* A test file for testing the API Business Logic
 * A list of the found bugs
 
 ## Execution
